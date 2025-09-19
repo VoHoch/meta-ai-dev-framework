@@ -1,4 +1,29 @@
-# Framework Update-Checklist
+# Framework Update Checklist v1.2
+
+## 🔧 Pre-Update-Validation:
+- [ ] Repository clean state (git status)
+- [ ] Backup-Branch erstellt
+- [ ] Update-Scope klar definiert
+- [ ] Keine temporären Dateien im Repo
+
+## 📝 Update-Execution:
+- [ ] Systematische Implementierung aller Änderungen
+- [ ] Version-Update in README.md
+- [ ] Cross-File-Consistency geprüft
+- [ ] Syntax-Validation durchgeführt
+
+## ✅ Post-Update-Validation:
+- [ ] git status clean
+- [ ] Alle Changes committed
+- [ ] Push zu origin/main erfolgreich
+- [ ] Framework-Features funktional getestet
+- [ ] Aussagekräftige Commit-Messages
+
+## 🚀 Claude Code Specific:
+- [ ] End-to-End-Update in einer Session
+- [ ] Keine manuellen Nacharbeiten erforderlich
+- [ ] Repository bleibt clean (keine Update-Artefakte)
+- [ ] Robuste Error-Handling implementiert
 
 ## ✅ Kritische Validierungs-Punkte bei jedem Update:
 

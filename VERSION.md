@@ -1,5 +1,23 @@
 # Framework Version History
 
+## v1.2 (19. September 2025)
+### 🆕 New Features:
+- **Robuste Update-Prozesse:** End-to-End-Validation für Framework-Updates
+- **Claude Code Best Practices:** Dokumentierte Workflows für saubere Updates
+- **Clean Repository-Policy:** Keine temporären Update-Dateien im Repo
+- **Enhanced Quality-Gates:** Automatisierte Update-Success-Validation
+
+### 🔧 Process Improvements:
+- **Update-Workflow-Template:** Standardisierte Prozesse für alle Updates
+- **Error-Recovery-Procedures:** Klare Anweisungen bei Update-Problemen
+- **Repository-Hygiene:** Strikte Trennung von Framework-Kern und Update-Artefakten
+- **Commit-Standards:** Aussagekräftige Messages für bessere Nachverfolgung
+
+### 🐛 Process Fixes:
+- **Unvollständige Updates:** Robuste End-to-End-Validation implementiert
+- **Repository-Pollution:** Strikte No-Temp-Files-Policy etabliert
+- **Manual-Rework-Reduction:** Automatisierte Update-Workflows
+
 ## v1.1 (19. September 2025)
 ### 🆕 New Features:
 - **KI-System-Compliance-Checks:** Automatische Model-Validierung
