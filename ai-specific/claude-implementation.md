@@ -18,18 +18,22 @@
 
 ## 🔄 Context Window Management (Claude-spezifisch)
 
-### Multi-Chat-Strategien
-**Standard-Ansatz: 3-Chat Strategie**
-- **Chat 1**: Phase -1, 0, 1 (Setup + Domain) - Opus für Kreativität
-- **Chat 2**: Phase 2, 3 (Requirements + Architektur) - Sonnet für Struktur
-- **Chat 3**: Phase 4, 5 (Implementation + Testing) - Opus + Sonnet Kollaboration
+### Hybrid Chat + Claude Code Strategien
+**Standard-Ansatz: Chat-Phasen (1-4) + Claude Code-Phasen (5-7)**
+- **Chat-Sessions**: Phase 1-4 (Setup + Requirements) - Multi-Model-Conversations
+- **Transfer**: Ergebnisse-Datei-Download → Repository-Integration
+- **Claude Code**: Phase 5-7 (Implementation + Testing) - Repository-basierte Umsetzung
 
-**Alternative: 5-Chat für maximale Kontrolle**
-- Chat 1: Phase -1, 0 (Setup + Kickoff)
-- Chat 2: Phase 1 (Domain-Expertise)
-- Chat 3: Phase 2 (Requirements)
-- Chat 4: Phase 3 (Architektur)
-- Chat 5: Phase 4, 5 (Implementation + Testing)
+**Chat-Phasen-Aufteilung**:
+- **Phase 1**: Repository Setup - Sonnet (strukturierte Setup-Planung)
+- **Phase 2**: Kickoff & Grundlagen - Opus (kreative Ideenentwicklung)
+- **Phase 3**: Fachexperten-Workshop - Opus (Domain-Expertise)
+- **Phase 4**: Business Requirements - Sonnet (strukturierte Requirements-Analyse)
+
+**Claude Code-Phasen-Aufteilung**:
+- **Phase 5**: Architektur + Debug-Konzept - System-Architekt-Rolle
+- **Phase 6**: Implementation - Developer + Quality Reviewer-Rolle
+- **Phase 7**: Testing + Handover - QA + Technical Writer-Rolle
 
 **GitHub-gesteuerte DevOps-Instanzen**
 - Universal-Prompt für jeden Chat mit GitHub-Status-Check
@@ -38,17 +42,19 @@
 
 ## 🎯 Phasen-spezifische Interaktions-Präferenzen
 
-### Phase 0-2: Kreative Unterstützung
+### Chat-Phasen (1-4): Kreative Unterstützung
 - **User-Rolle**: Fokussiert bleiben bei Anwendungs-Beschreibung
 - **Claude-Rolle**: Kreativ unterstützend, Anwendungskontext erweitern
 - **Grenzen**: Nicht überdenken mit zu frühen Fachexperten-Einsätzen
-- **Sonnet vs. Opus**: Opus bevorzugt für kreative Phasen
+- **Model-Allocation**: Sonnet für Struktur (Phase 1,4), Opus für Kreativität (Phase 2,3)
+- **Output**: Strukturierte Ergebnisse-Datei für Claude Code Transfer
 
-### Phase 3-5: Strikt arbeiten
+### Claude Code-Phasen (5-7): Strikt arbeiten
 - **User-Rolle**: Klare Vorgaben und Abnahme-Kriterien
-- **Claude-Rolle**: Keine Kreativität, nur solide technische Umsetzung
+- **Claude Code-Rolle**: Keine Kreativität, nur solide technische Umsetzung
 - **Focus**: Funktionalität und Qualität vor Innovation
-- **Sonnet vs. Opus**: Sonnet für Struktur, Opus für Implementation
+- **Input**: Chat-Ergebnisse als vollständige Arbeitsanweisungen
+- **Output**: Production-ready Code im Repository
 
 ## 📋 Claude-spezifische Handover-Templates
 
@@ -134,25 +140,34 @@ function validateParameter(value, min, max, paramName) {
 
 ## 🎯 Claude-spezifische Prompt-Optimierungen
 
-### Universal Session Starter (Claude)
+### Hybrid Session Starters
+
+#### Chat Session Starter (Phase 1-4)
 ```markdown
-## Claude Meta-AI Framework Session
+## Meta AI Framework v1.0 - Chat-Phasen
 **Framework**: Meta AI Development Framework v1.0 by Volker Hochgürtel
-**Model**: Claude Sonnet 4 / Claude Opus 4
-**Repository**: https://github.com/VoHoch/[projektname]-VH-1.0
 **Meta-Profile**: https://github.com/VoHoch/meta-ai-interaction-profile
+**Current Phase**: [1-4] von 7
+**Model**: [Sonnet: Structure/Analysis | Opus: Creativity/Domain]
+**Workflow-Mode**: Multi-Model Chat-Session
+**Target**: Ergebnisse-Datei für Claude Code Transfer
 
-**Current Phase**: [Phase Number] von 7
-**Previous Phases**: [Liste abgeschlossener Phasen]
-**Model Role**: [Sonnet: Struktur/Analyse | Opus: Kreativität/Implementation]
+**Quality Standards**: Enterprise-level specifications for SME applications
+**Output-Requirement**: Strukturierte Deliverables für Repository-Implementation
+```
 
-**Task**: Execute Phase [N] according to framework specifications
-**Context**: Read complete GitHub repository status before starting
-**Output**: All deliverables committed to repository with proper documentation
-**Handover**: Prepare structured handover for next phase/model if applicable
+#### Claude Code Session Starter (Phase 5-7)
+```markdown
+## Meta AI Framework v1.0 - Implementation-Phasen
+**CLAUDE.md**: Auto-loaded ✓
+**Input-File**: ergebnisse-phase-1-4-[projektname].md
+**Current Phase**: [5-7] von 7
+**Role**: System-Architect/Developer/QA
+**Workflow-Mode**: Repository-based Implementation
+**Target**: Production-ready Application
 
-**Quality Standards**: Enterprise-quality for SME applications
-**Interaction Style**: [Creative Support Phase 0-2 | Strict Execution Phase 3-5]
+**Quality Standards**: All Chat-Phase requirements implemented
+**Output-Requirement**: Committed code, documentation, tests in repository
 ```
 
 ## 🚫 Claude Anti-Patterns (aus Session-Erfahrung dokumentiert)

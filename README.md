@@ -4,8 +4,9 @@ Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Sys
 
 ## 🎯 Zweck
 - **Strukturierte KI-Projekte** statt chaotische Chat-Sessions
-- **Repository-basierte Dokumentation** mit versionierter Nachverfolgung
+- **Hybrid Chat + Claude Code Workflow** für optimale Tool-Nutzung
 - **7-Phasen-Modell** von Konzept bis produktionsreifer Web-App
+- **Repository-basierte Dokumentation** mit versionierter Nachverfolgung
 - **Praxistauglich** für Heim-/KMU-Anwendungen
 
 ## ✅ Framework-Eigenschaften
@@ -18,8 +19,10 @@ Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Sys
 ## 🚀 Quick-Start
 1. **"Use this template"** für neues Projekt
 2. **Repository benennen**: `[projektname]-VH-1.0`
-3. **KI-System wählen**: Claude/ChatGPT/Gemini aus `/ai-specific/`
-4. **7-Phasen-Modell** systematisch durcharbeiten
+3. **Hybrid-Workflow anwenden**:
+   - **Phase 1-4**: Chat-Sessions (Konzept + Requirements)
+   - **Phase 5-7**: Claude Code (Implementation + Testing)
+4. **Transfer**: Ergebnisse-Datei aus Chat → Claude Code Repository
 
 ## 📁 Repository-Struktur
 ```
