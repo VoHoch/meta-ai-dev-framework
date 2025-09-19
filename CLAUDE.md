@@ -1,4 +1,8 @@
-# Claude Code Project Configuration - Meta AI Framework v1.0
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+# Meta AI Development Framework v1.2 - Claude Code Configuration
 
 # Meta-Profile Integration
 
@@ -37,7 +41,7 @@
 - **Quality Standards**: Enterprise quality for SME applications
 
 ## 🎯 Project-Specific Settings
-- **Framework Version**: v1.0
+- **Framework Version**: v1.2
 - **Repository Pattern**: [projektname]-VH-1.0
 - **KI Model**: Claude Sonnet 4 / Claude Opus 4
 - **Current Phase**: [Will be updated per phase]
@@ -91,14 +95,46 @@
 ```
 
 ## 📐 Claude-Specific Role Application
-### Phase Allocation:
-- **Phase 0-1**: Opus preferred (Creative exploration, domain expertise)
-- **Phase 2-3**: Sonnet preferred (Structured analysis, architecture)  
-- **Phase 4-5**: Opus+Sonnet collaboration (Implementation + quality review)
+### Phase Allocation (v1.2 Updated):
+- **Phase 1**: Opus 4 recommended (Complex conception & requirements)
+- **Phase 2-7**: Sonnet 4 optimal (Implementation & deployment)
+- **Model-Mismatch-Handling**: Warning but continuation allowed
 
 ### Context Window Management:
-- **3-Chat Strategy**: Setup+Domain / Requirements+Architecture / Implementation+Testing
+- **Hybrid Workflow**: Chat-Phases 1-4 → Claude Code 5-7
 - **Repository-First**: Always read complete project status before starting
-- **Handover-Documentation**: Prepare structured transitions between phases/models
+- **Handover-Documentation**: ergebnisse-phase-1-4-[projektname].md for transfer
 
-This configuration ensures optimal human-AI collaboration based on established patterns and learnings from meta-ai-interaction-profile repository.
+## 🔧 Framework-Specific Commands
+
+### Framework Updates:
+```bash
+# Validate before updates
+git status  # Must be clean
+git log --oneline -3  # Check recent commits
+
+# Apply updates (see update-checklist.md)
+# Always follow claude-code-best-practices.md
+```
+
+### Quality Validation:
+```bash
+# Check framework compliance
+grep -r "v1.2" *.md  # Verify version consistency
+ls -la  # Ensure no temp files in repo
+```
+
+## 📁 Key Framework Files
+
+### Core Documentation:
+- **framework-overview.md**: Complete 7-phase model with hybrid workflow
+- **startup-validation.md**: Pre-flight checks and model validation
+- **update-checklist.md**: Mandatory validation for framework changes
+- **claude-code-best-practices.md**: Robust update workflows
+
+### Quality & Compliance:
+- **quality-framework.md**: Testing standards and update quality gates
+- **VERSION.md**: Version history and migration guides
+- **ai-specific/claude-implementation.md**: Model selection guidelines
+
+This configuration ensures optimal human-AI collaboration based on Framework v1.2 with robust update processes and KI-model compliance features.
