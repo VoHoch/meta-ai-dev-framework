@@ -16,10 +16,16 @@ Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.1.
 
 Beide Repositories vollständig einlesen und Vorgehen anwenden.
 
+## KI-Model-Validation (v1.1 Feature)
+**Aktuelles Claude Model:** [Wird automatisch erkannt]
+**Phase 1 (Konzeption):** Claude Opus 4 empfohlen
+**Phase 2-7 (Implementation):** Claude Sonnet 4 optimal
+**Bei Model-Mismatch:** Warnung anzeigen, aber Fortsetzung ermöglichen
+
 ## Projektstart
 **Projektname:** [HIER EINGEBEN]
 
-Nach Projektname-Eingabe 7-Phasen-Modell strukturiert abarbeiten.
+Nach Projektname-Eingabe 7-Phasen-Modell strukturiert abarbeiten mit automatischer Model-Compliance-Überprüfung.
 ```
 
 ### Workflow
