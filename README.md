@@ -1,5 +1,36 @@
 # Meta AI Development Framework v1.0
 
+## 🚀 Software Projekt starten
+
+### Quick Start
+Kopiere diesen Prompt in einen neuen Claude Chat:
+
+```
+# Software Projekt Start
+
+Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.0.
+
+## Framework einlesen
+- **Development Framework:** https://github.com/VoHoch/meta-ai-dev-framework
+- **Interaktions-Profil:** https://github.com/VoHoch/meta-ai-interaction-profile
+
+Beide Repositories vollständig einlesen und Vorgehen anwenden.
+
+## Projektstart
+**Projektname:** [HIER EINGEBEN]
+
+Nach Projektname-Eingabe 7-Phasen-Modell strukturiert abarbeiten.
+```
+
+### Workflow
+1. **Chat-Phasen:** Phase 1-4 (Business, Requirements, Architektur)
+2. **Claude Code:** Phase 5-7 (Implementation, Testing)
+3. **Repository:** Automatische Synchronisation mit GitHub
+
+Das Framework führt automatisch durch alle Entwicklungsphasen mit optimierter Mensch-KI-Interaktion.
+
+---
+
 Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Systemen.
 
 ## 🎯 Zweck

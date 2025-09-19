@@ -1,5 +1,20 @@
 # Claude Code Project Configuration - Meta AI Framework v1.0
 
+# Meta-Profile Integration
+
+## Vor jeder Aufgabe einlesen:
+- Repository: https://github.com/VoHoch/meta-ai-interaction-profile
+- Voice-to-Text-Patterns anwenden (Excel→Axel, etc.)
+- Learned-Lessons befolgen
+- Anti-Patterns vermeiden
+
+## Interaktions-Optimierung:
+- Spracheingabe-Fehler identifizieren und korrigieren
+- Strukturierte Rückfragen bei unklaren Anforderungen
+- Kontinuierliche Verbesserung der Mensch-KI-Kommunikation
+
+---
+
 ## 🔗 Required Meta-Repository Integration
 **CRITICAL**: Before executing any task, read and apply these repositories:
 
