@@ -1,4 +1,4 @@
-# Meta AI Development Framework v1.0
+# Meta AI Development Framework v1.1
 
 ## 🚀 Software Projekt starten
 
@@ -8,7 +8,7 @@ Kopiere diesen Prompt in einen neuen Claude Chat:
 ```
 # Software Projekt Start
 
-Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.0.
+Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.1.
 
 ## Framework einlesen
 - **Development Framework:** https://github.com/VoHoch/meta-ai-dev-framework
@@ -41,9 +41,11 @@ Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Sys
 - **Praxistauglich** für Heim-/KMU-Anwendungen
 
 ## ✅ Framework-Eigenschaften
-- **KI-Agnostic**: Für Claude/ChatGPT/Gemini verwendbar
+- **KI-System-Compliance**: Automatische Model-Validierung pro Phase
+- **Enhanced Error-Handling**: Intelligente GitHub-Access-Fehlerbehandlung
+- **Pre-Flight-Validation**: Umfassende Session-Startup-Checks
+- **Quality Gates**: Mathematische Validierung + Compliance-Scoring
 - **Context-Window-Management**: Multi-Chat-Strategien mit nahtlosen Übergaben
-- **Quality Gates**: Mathematische Validierung für Fachsoftware
 - **GitHub-Integration**: Copy-Pattern für neue Projekt-Instanzen
 - **Template Repository**: "Use this template" für neue Projekte
 
@@ -73,11 +75,13 @@ meta-ai-dev-framework/
 ```
 
 ## 📊 Version & Meta-Informationen
-- **Framework Version**: v1.0
+- **Framework Version**: v1.1
 - **Autor**: Volker Hochgürtel
 - **Entwickelt**: September 2025
-- **Anwendung**: KI-Agnostic Web-App Development
+- **Letzte Aktualisierung**: 19. September 2025
+- **Anwendung**: KI-Enhanced Web-App Development mit Compliance-Features
 - **Repository-Pattern**: `[projektname]-VH-1.0`
+- **Neue Features v1.1**: KI-Model-Validation, Enhanced Quality Gates, Pre-Flight-Checks
 
 ## 🔗 Related Repository
 - **Interaktions-Profil**: [meta-ai-interaction-profile](https://github.com/VoHoch/meta-ai-interaction-profile)
