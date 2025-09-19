@@ -13,8 +13,10 @@ Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.1.
 ## Framework einlesen
 - **Development Framework:** https://github.com/VoHoch/meta-ai-dev-framework
 - **Interaktions-Profil:** https://github.com/VoHoch/meta-ai-interaction-profile
+- **Framework-Update-Lessons:** [framework-update-lessons.md](https://github.com/VoHoch/meta-ai-interaction-profile/blob/main/framework-update-lessons.md)
+- **Update-Quality-Gates:** [update-checklist.md](update-checklist.md)
 
-Beide Repositories vollständig einlesen und Vorgehen anwenden.
+Beide Repositories vollständig einlesen und Vorgehen anwenden. Bei Framework-Updates: Update-Checklist und Lessons beachten.
 
 ## KI-Model-Validation (v1.1 Feature)
 **Aktuelles Claude Model:** [Wird automatisch erkannt]
