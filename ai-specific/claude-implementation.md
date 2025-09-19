@@ -1,3 +1,29 @@
+# Claude-Specific Implementation v1.1
+
+## 🎯 **Model-Selection-Guidelines**
+
+### Claude Opus 4 - Optimale Phasen:
+- **Phase 1:** Konzeption & Anforderungsanalyse
+  - Komplexe Domänen-Analyse
+  - Ausführliche Competitive Research
+  - Detailliertes Requirements Engineering
+  - Sophisticated Business Case Development
+
+### Claude Sonnet 4 - Optimale Phasen:
+- **Phase 2-7:** Implementation & Deployment
+  - Code-Development & Architecture
+  - System-Integration & Testing
+  - Performance-Optimierung
+  - Production-Deployment
+
+## 🔧 **Framework-Compliance-Features**
+
+### Automatische Session-Validierung:
+1. **Model-Detection:** Aktuelles Claude-Modell identifizieren
+2. **Phase-Matching:** Optimal model für aktuelle Phase prüfen
+3. **User-Warning:** Bei Mismatch informative Warnung anzeigen
+4. **Flexibility:** Fortsetzung mit expliziter Bestätigung erlauben
+
 # Claude-spezifische Implementation
 
 ## 🧠 Claude-Rollen-Spezialisierung (Bewährt aus Praxis)

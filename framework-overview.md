@@ -1,3 +1,26 @@
+# Meta Claude Development Framework v1.1
+
+## 🚨 **KI-System-Compliance-Matrix**
+
+### Phase-spezifische KI-Empfehlungen:
+| Phase | Empfohlenes Modell | Begründung | Alternativen |
+|-------|-------------------|------------|--------------|
+| **Phase 1** | Claude Opus 4 | Komplexe Konzeption & Requirements | Sonnet 4 mit Warnung |
+| **Phase 2** | Claude Sonnet 4 | Architektur & Design-Optimierung | Opus 4 für komplexe Systeme |
+| **Phase 3** | Claude Sonnet 4 | Setup & Konfiguration | - |
+| **Phase 4** | Claude Sonnet 4 | Code-Development & Implementation | - |
+| **Phase 5** | Claude Sonnet 4 | Testing & Integration | - |
+| **Phase 6** | Claude Sonnet 4 | Deployment & Go-Live | - |
+| **Phase 7** | Claude Sonnet 4 | Maintenance & Optimization | - |
+
+## ⚠️ **Framework-Compliance-Checks**
+
+### Automatische Validierung:
+- **KI-Model-Detection:** Prüfung des aktuellen Claude-Modells
+- **Phase-Alignment:** Warnung bei suboptimaler Model-Wahl
+- **Repository-Access:** Error-Handling für GitHub-Zugriffsprobleme
+- **Quality-Gate-Validation:** Automatische Vollständigkeitsprüfung
+
 # Universelles 7-Phasen-Modell
 
 ## 🎯 Framework-Philosophie
