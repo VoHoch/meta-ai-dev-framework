@@ -186,26 +186,7 @@ function validateParameter(value, min, max, paramName) {
 ✅ CLAUDE SUCCESS-PATTERN 2: Repository-basierte Dokumentation für Persistenz
 ✅ CLAUDE SUCCESS-PATTERN 3: Meta-Level Reflexion über Interaktionsprozesse
 ✅ CLAUDE SUCCESS-PATTERN 4: Information-Preservation beim Framework-Umbau
-✅ CLAUDE SUCCESS-PATTERN 5: Voice-to-Text-Pattern-Awareness mit Rückfragen
-```
-
-## 🗣️ Voice-to-Text-Pattern-Awareness (Claude-spezifisch)
-
-### Erkannte Fehler-Patterns (Mac German Dictation)
-```
-HÄUFIGE VOICE-TO-TEXT-FEHLER:
-- "GitHub" → "geht hab", "Gitter", "FOS"
-- "Repository" → "Repositorium", verschiedene Varianten
-- "Framework" → "Frameburg", "Freiburg"
-- "DevOps" → "FOS"
-- "VSCode" → "VSCO"
-- Technical terms: Deutsche Spracherkennung "übersetzt" englische Fachbegriffe falsch
-
-CLAUDE RESPONSE PATTERN:
-## Voice-to-Text Korrekturen (falls erkannt):
-- "[Fehler]" → "[Korrektur]" ✓
-
-[Dann normale Antwort auf User Intent]
+✅ CLAUDE SUCCESS-PATTERN 5: Strukturierte Handover-Prozesse zwischen Sessions
 ```
 
 ## 📐 Claude-spezifische Interaktions-Regeln
