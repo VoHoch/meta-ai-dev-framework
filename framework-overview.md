@@ -13,6 +13,14 @@
 | **Phase 6** | Claude Sonnet 4 | Deployment & Go-Live | - |
 | **Phase 7** | Claude Sonnet 4 | Maintenance & Optimization | - |
 
+## 🎯 **Phase-spezifische KI-Empfehlungen**
+
+### Optimale Model-Allocation:
+- **Phase 1 (Konzeption):** Claude Opus 4 empfohlen - Komplexe Analyse und Requirements
+- **Phase 2-7 (Implementation):** Claude Sonnet 4 optimal - Strukturierte Umsetzung und Code
+- **Automatische Validierung:** Warnung bei suboptimaler Model-Wahl mit Begründung
+- **Flexible Fortsetzung:** Framework-Nutzung trotz Model-Mismatch möglich
+
 ## ⚠️ **Framework-Compliance-Checks**
 
 ### Automatische Validierung:

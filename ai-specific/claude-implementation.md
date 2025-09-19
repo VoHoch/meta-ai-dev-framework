@@ -8,6 +8,7 @@
   - Ausführliche Competitive Research
   - Detailliertes Requirements Engineering
   - Sophisticated Business Case Development
+  - **Vorteil:** Höhere Kreativität und analytische Tiefe
 
 ### Claude Sonnet 4 - Optimale Phasen:
 - **Phase 2-7:** Implementation & Deployment
@@ -15,6 +16,7 @@
   - System-Integration & Testing
   - Performance-Optimierung
   - Production-Deployment
+  - **Vorteil:** Strukturierte Umsetzung und Code-Qualität
 
 ## 🔧 **Framework-Compliance-Features**
 
@@ -23,6 +25,38 @@
 2. **Phase-Matching:** Optimal model für aktuelle Phase prüfen
 3. **User-Warning:** Bei Mismatch informative Warnung anzeigen
 4. **Flexibility:** Fortsetzung mit expliziter Bestätigung erlauben
+
+### Detaillierte Opus vs Sonnet Empfehlungen:
+
+#### **Phase 1 - Konzeption (Opus 4 empfohlen):**
+```markdown
+✅ **Claude Opus 4 optimal:**
+- Komplexe Problemanalyse
+- Kreative Lösungsansätze
+- Detaillierte Stakeholder-Analyse
+- Umfassende Competitive Research
+
+⚠️ **Claude Sonnet 4 funktional:**
+- Grundlegende Requirements erfassung
+- Strukturierte Analyse möglich
+- Weniger kreative Insights
+- Empfehlung: Quality-Review durch Experten
+```
+
+#### **Phase 2-7 - Implementation (Sonnet 4 empfohlen):**
+```markdown
+✅ **Claude Sonnet 4 optimal:**
+- Strukturierte Code-Entwicklung
+- Konsistente Architektur-Umsetzung
+- Effiziente Testing-Strategien
+- Zuverlässige Deployment-Prozesse
+
+⚠️ **Claude Opus 4 überdimensioniert:**
+- Funktional für Code-Development
+- Möglicherweise überkreativ für Standards
+- Ressourcen-ineffizient für strukturierte Tasks
+- Empfehlung: Fokus auf Code-Qualität
+```
 
 # Claude-spezifische Implementation
 

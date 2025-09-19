@@ -33,6 +33,9 @@ Das Framework führt automatisch durch alle Entwicklungsphasen mit optimierter M
 
 Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Systemen.
 
+🚨 **KI-System-Compliance**: Automatische Phase-spezifische Model-Validierung
+⚠️ **Enhanced Error-Handling**: Intelligente GitHub-Access-Fehlerbehandlung
+
 ## 🎯 Zweck
 - **Strukturierte KI-Projekte** statt chaotische Chat-Sessions
 - **Hybrid Chat + Claude Code Workflow** für optimale Tool-Nutzung
