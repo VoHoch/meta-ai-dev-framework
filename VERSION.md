@@ -1,5 +1,24 @@
 # Framework Version History
 
+## v1.3 (19. September 2025)
+### 🚀 Major Feature: Lightweight Mode
+- **Project Complexity Assessment:** Frühe Entscheidung zwischen Enterprise und Lightweight Mode
+- **Lightweight Mode:** Optimiert für kleine Projekte und Prototypen
+- **67% Zeitersparnis:** Von ~6h auf ~2h für kleine Anwendungen
+- **Pragmatic Shortcuts:** Automatische Vereinfachung ohne Qualitätsverlust bei Core-Features
+
+### 🎯 Lightweight Mode Features:
+- **Auto-Removal:** Overhead wie ROI, Multi-User Auth, RBAC automatisch entfernt
+- **Core-Essentials:** Debug, Logging, Testing, Error-Handling bleiben erhalten
+- **Fast-Track Options:** Vordefinierte Tech-Stack und vereinfachte Quality Gates
+- **Migration Path:** Upgrade von Lightweight zu Enterprise möglich
+
+### 🔧 Framework Improvements:
+- **Phase 1 Enhancement:** Project Complexity Assessment direkt nach Setup
+- **Mode-Specific Templates:** Angepasste Dokumentation basierend auf Complexity
+- **Time-Saving Matrix:** Klare Zeitersparnis-Metriken pro Phase
+- **Decision-Tree:** Hilfe bei Mode-Selection
+
 ## v1.2 (19. September 2025)
 ### 🆕 New Features:
 - **Robuste Update-Prozesse:** End-to-End-Validation für Framework-Updates

@@ -1,4 +1,4 @@
-# Meta AI Development Framework v1.2
+# Meta AI Development Framework v1.3
 
 ## 🚀 Software Projekt starten
 
@@ -8,7 +8,7 @@ Kopiere diesen Prompt in einen neuen Claude Chat:
 ```
 # Software Projekt Start
 
-Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.2.
+Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.3.
 
 ## Framework einlesen
 - **Development Framework:** https://github.com/VoHoch/meta-ai-dev-framework
@@ -24,10 +24,16 @@ Beide Repositories vollständig einlesen und Vorgehen anwenden. Bei Framework-Up
 **Phase 2-7 (Implementation):** Claude Sonnet 4 optimal
 **Bei Model-Mismatch:** Warnung anzeigen, aber Fortsetzung ermöglichen
 
+## Lightweight Mode (v1.3 Feature)
+**Projekt-Komplexität:** Enterprise oder Lightweight wählbar
+**67% Zeitersparnis:** Bei kleinen Projekten (~2h statt ~6h)
+**Auto-Optimierung:** Overhead automatisch entfernt für schnelle Prototypen
+
 ## Projektstart
 **Projektname:** [HIER EINGEBEN]
+**Complexity Mode:** [LIGHTWEIGHT/ENTERPRISE AUSWÄHLEN]
 
-Nach Projektname-Eingabe 7-Phasen-Modell strukturiert abarbeiten mit automatischer Model-Compliance-Überprüfung.
+Nach Projektname-Eingabe 7-Phasen-Modell strukturiert abarbeiten mit automatischer Model-Compliance-Überprüfung und Complexity-Assessment.
 ```
 
 ### Workflow
@@ -41,6 +47,7 @@ Das Framework führt automatisch durch alle Entwicklungsphasen mit optimierter M
 
 Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Systemen.
 
+🚀 **NEU - Lightweight Mode (v1.3)**: 67% Zeitersparnis für kleine Projekte
 🚨 **KI-System-Compliance**: Automatische Phase-spezifische Model-Validierung
 ⚠️ **Enhanced Error-Handling**: Intelligente GitHub-Access-Fehlerbehandlung
 🔧 **Robuste Update-Prozesse**: End-to-End-Validation für Framework-Updates
@@ -88,13 +95,13 @@ meta-ai-dev-framework/
 ```
 
 ## 📊 Version & Meta-Informationen
-- **Framework Version**: v1.2
+- **Framework Version**: v1.3
 - **Autor**: Volker Hochgürtel
 - **Entwickelt**: September 2025
 - **Letzte Aktualisierung**: 19. September 2025
-- **Anwendung**: KI-Enhanced Web-App Development mit robusten Update-Prozessen
+- **Anwendung**: KI-Enhanced Development mit Lightweight Mode für kleine Projekte
 - **Repository-Pattern**: `[projektname]-VH-1.0`
-- **Neue Features v1.2**: Robuste Update-Prozesse, Claude Code Best Practices, End-to-End-Validation
+- **Neue Features v1.3**: Lightweight Mode mit 67% Zeitersparnis, Project Complexity Assessment
 
 ## 🔗 Related Repository
 - **Interaktions-Profil**: [meta-ai-interaction-profile](https://github.com/VoHoch/meta-ai-interaction-profile)

@@ -49,16 +49,32 @@
 **Durchführung**: Claude Code mit lokaler Repository-Integration
 **Input**: Chat-Ergebnisse als strukturierte Arbeitsanweisungen
 
-### Phase 1: Repository Setup (15 Min) 📋
+### Phase 1: Repository Setup (15 Min → 5 Min im Lightweight Mode) 📋
 **Input**: Projektidee + Framework-Entscheidung
 **Output**: GitHub-Repo + KI-Projekt + Dokumenten-Templates
 **Repository**: Initial setup complete
 **Model**: Sonnet (strukturierte Setup-Planung)
 
+#### 🎯 **Project Complexity Assessment (NEU in v1.3)**
+```markdown
+## Quick-Decision: Enterprise vs. Lightweight Mode
+
+**Lightweight Mode aktivieren wenn:**
+- Single-User oder <5 User Anwendung
+- Keine Authentifizierung erforderlich
+- Lokale/Private Nutzung
+- Schneller Prototyp gewünscht
+- Zeit/Budget-Constraints
+
+→ Reduziert Gesamt-Aufwand von ~6h auf ~2h
+→ Details siehe lightweight-mode.md
+```
+
 **Checkliste:**
 - [ ] Repository mit Naming Convention erstellen (`[projektname]-VH-1.0`)
+- [ ] **NEU:** Complexity Assessment (Lightweight vs Enterprise)
 - [ ] KI-Projekt/Session initialisieren
-- [ ] Basis-Dokumentenstruktur committen
+- [ ] Basis-Dokumentenstruktur committen (angepasst an Mode)
 - [ ] README mit Projekt-Meta erstellen
 - [ ] KI-Session-Linking in Repository dokumentieren
 
