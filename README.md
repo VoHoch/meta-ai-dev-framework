@@ -103,6 +103,9 @@ meta-ai-dev-framework/
 - **Repository-Pattern**: `[projektname]-VH-1.0`
 - **Neue Features v1.3**: Lightweight Mode mit 67% Zeitersparnis, Project Complexity Assessment
 
+### 🔒 Qualitätssicherung
+- [Quality Assurance Guide](docs/quality-assurance.md) - Regression vermeiden, Features tracking
+
 ## 🔗 Related Repository
 - **Interaktions-Profil**: [meta-ai-interaction-profile](https://github.com/VoHoch/meta-ai-interaction-profile)
 
