@@ -1,5 +1,24 @@
 # Framework Version History
 
+## v1.4 (21. September 2025)
+### 🛡️ Major Feature: Quality Assurance & Regression Prevention
+- **Requirements-Tracking-Matrix:** Verhindert Feature-Verlust zwischen Versionen
+- **Mock-up Level System:** 4-Level Klassifikation für klare Erwartungen
+- **Regression-Checklist:** Systematische Qualitätssicherung
+- **CNC Tool Lessons Learned:** Integration realer Projekterfahrungen
+
+### 🎯 Quality Assurance Features:
+- **Additives Prinzip:** Niemals Features verlieren - nur hinzufügen/verbessern
+- **Expertenrunden-Integration:** Konkrete Werte statt Prosa
+- **Project-Continuation-Template:** Strukturierte Projekt-Fortsetzung
+- **Anti-Pattern-Documentation:** Bewährte Fehler-Vermeidung
+
+### 📁 Neue Struktur:
+- **docs/quality-assurance.md:** Zentrale QA-Guidelines
+- **templates/project-continuation.md:** Fortsetzungs-Template
+- **phases/phase-2-design.md:** Iterative Verbesserungsmuster
+- **examples/lessons-learned-cnc-tool.md:** Reale Projekterfahrungen
+
 ## v1.3 (19. September 2025)
 ### 🚀 Major Feature: Lightweight Mode
 - **Project Complexity Assessment:** Frühe Entscheidung zwischen Enterprise und Lightweight Mode

@@ -1,4 +1,4 @@
-# Meta AI Development Framework v1.3
+# Meta AI Development Framework v1.4
 
 ## 🚀 Software Projekt starten
 
@@ -8,7 +8,7 @@ Kopiere diesen Prompt in einen neuen Claude Chat:
 ```
 # Software Projekt Start
 
-Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.3.
+Neues Software-Entwicklungsprojekt mit Meta Claude Development Framework v1.4.
 
 ## Framework einlesen
 - **Development Framework:** https://github.com/VoHoch/meta-ai-dev-framework
@@ -47,7 +47,8 @@ Das Framework führt automatisch durch alle Entwicklungsphasen mit optimierter M
 
 Ein strukturiertes Framework für professionelle Software-Entwicklung mit KI-Systemen.
 
-🚀 **NEU - Lightweight Mode (v1.3)**: 67% Zeitersparnis für kleine Projekte
+🛡️ **NEU - Quality Assurance (v1.4)**: Regression Prevention mit Requirements-Tracking
+🚀 **Lightweight Mode (v1.3)**: 67% Zeitersparnis für kleine Projekte
 🚨 **KI-System-Compliance**: Automatische Phase-spezifische Model-Validierung
 ⚠️ **Enhanced Error-Handling**: Intelligente GitHub-Access-Fehlerbehandlung
 🔧 **Robuste Update-Prozesse**: End-to-End-Validation für Framework-Updates
@@ -95,13 +96,13 @@ meta-ai-dev-framework/
 ```
 
 ## 📊 Version & Meta-Informationen
-- **Framework Version**: v1.3
+- **Framework Version**: v1.4
 - **Autor**: Volker Hochgürtel
 - **Entwickelt**: September 2025
-- **Letzte Aktualisierung**: 19. September 2025
-- **Anwendung**: KI-Enhanced Development mit Lightweight Mode für kleine Projekte
+- **Letzte Aktualisierung**: 21. September 2025
+- **Anwendung**: KI-Enhanced Development mit Quality Assurance für robuste Projekte
 - **Repository-Pattern**: `[projektname]-VH-1.0`
-- **Neue Features v1.3**: Lightweight Mode mit 67% Zeitersparnis, Project Complexity Assessment
+- **Neue Features v1.4**: Quality Assurance, Regression Prevention, Mock-up Level System
 
 ### 🔒 Qualitätssicherung
 - [Quality Assurance Guide](docs/quality-assurance.md) - Regression vermeiden, Features tracking
